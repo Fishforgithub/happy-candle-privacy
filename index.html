@@ -64,7 +64,8 @@
 
 <div class="card">
 <h3>一、我們不蒐集的資料</h3>
-<p>本 App 不會向您索取或蒐集姓名、電子郵件、電話號碼、通訊錄、位置、相片或任何帳號資訊。
+<p>本 App 不會向您索取或蒐集姓名、電子郵件、電話號碼、通訊錄、位置、
+您手機相簿中的相片，或任何帳號資訊。
 本 App 開發者無法看見您在 App 內做了什麼。</p>
 </div>
 
@@ -77,12 +78,15 @@
   <li>背景音樂與音效音量、熄滅時是否停止音樂</li>
   <li>煙霧文字的選擇與您自行輸入的祝賀詞</li>
   <li>商城的解鎖狀態與虛擬幣餘額</li>
+  <li>「吹熄留念」拍下的拍立得照片（僅存放在 App 私有的儲存空間，最多保留 30 張，
+      不會進入您的手機相簿）</li>
 </ul>
-<p>解除安裝本 App 即會一併刪除上述資料。</p>
+<p>解除安裝本 App 即會一併刪除上述資料。您也可以隨時在
+<strong>設定頁 → 吹熄留念 → 全部刪除</strong>單獨清除所有照片。</p>
 </div>
 
 <div class="card">
-<h3>三、麥克風</h3>
+<h3>三、麥克風與相機</h3>
 <p>本 App 提供一種名為「魔法吹熄」的控制方式，讓您對著手機吹氣把蠟燭吹熄。
 只有在您<strong>主動選擇這個控制方式時</strong>才會開啟麥克風，切換到其他控制方式會立刻關閉。</p>
 <p>麥克風的用途僅止於在裝置端即時計算音量與頻譜特徵，用來判斷「是不是有人在吹氣」。
@@ -90,6 +94,21 @@
 音訊資料在分析後隨即丟棄，從未離開您的裝置。</p>
 <p>您可以隨時在系統設定中撤銷麥克風權限；撤銷後「魔法吹熄」無法使用，
 但螢幕觸控與音量鍵這兩種控制方式不受影響。</p>
+<p><strong>相機</strong>只用於一項名為「吹熄留念」的功能：蠟燭熄滅時自動用前鏡頭拍一張、
+接著用後鏡頭補一張小圖，合成成一張拍立得樣式的紀念照。這項功能<strong>預設關閉</strong>，
+只有您在<strong>設定頁 → 吹熄留念</strong>主動開啟後才會使用相機；
+關閉時本 App 完全不會開啟相機。</p>
+<p>相機只在蠟燭「蓄力到熄滅」的那幾秒內開啟（提前開啟是為了不錯過吹熄的瞬間），
+熄滅並拍完後立即關閉。本 App <strong>不錄影、不即時傳輸畫面</strong>。
+拍下的照片只寫入本 App 私有的儲存空間，<strong>本 App 不會自行上傳，也不會傳送給開發者、
+不會寫入您的手機相簿</strong>，因此其他 App 看不到它們，也不會被自動備份到雲端。
+照片最多保留 30 張，超過時最舊的會自動刪除；您也可以隨時逐張或全部刪除。</p>
+<p><strong>分享</strong>：照片下方有一個「分享」鍵。只有在您按下它、並在系統分享面板中
+自己選擇目的地（例如通訊軟體、相簿或郵件）時，那一張照片才會交給您選的那個 App。
+交出去之後，該照片如何被使用與保存，取決於<strong>您所選 App 自己的隱私權政策</strong>，
+不再由本 App 控制。您不按分享，照片就不會離開本 App。</p>
+<p>您可以隨時在系統設定中撤銷相機權限，或把「吹熄留念」關掉；
+兩者都不影響蠟燭本身的任何功能。</p>
 </div>
 
 <div class="card">
@@ -128,6 +147,8 @@
 <ul>
   <li><code>INTERNET</code> — 載入廣告所需，本 App 本身的功能全部離線運作。</li>
   <li><code>RECORD_AUDIO</code>、<code>MODIFY_AUDIO_SETTINGS</code> — 供「魔法吹熄」偵測吹氣，用途見第三節。</li>
+  <li><code>CAMERA</code> — 供「吹熄留念」拍攝紀念照，用途見第三節。本 App 不要求任何
+      讀取或寫入您相簿的權限。</li>
 </ul>
 </div>
 
@@ -151,7 +172,8 @@ store, or transmit any personally identifiable information.</p>
 <div class="card">
 <h3>1. What we do not collect</h3>
 <p>The App never asks for or collects your name, email address, phone number, contacts,
-location, photos, or any account information. The developer cannot see what you do inside the App.</p>
+location, the photos in your phone's gallery, or any account information.
+The developer cannot see what you do inside the App.</p>
 </div>
 
 <div class="card">
@@ -163,12 +185,15 @@ They never leave your phone and are never sent to us or to any third party:</p>
   <li>Music and sound-effect volume, whether music stops when the candle goes out</li>
   <li>Your smoke-message choice and any custom greeting you type</li>
   <li>Shop unlock state and in-app currency balance</li>
+  <li>Keepsake polaroids taken by the App (kept in the App's own private storage, up to 30 of them,
+      never added to your phone's gallery)</li>
 </ul>
-<p>Uninstalling the App deletes all of it.</p>
+<p>Uninstalling the App deletes all of it. You can also erase every photo on its own at any time
+under <strong>Settings → Keepsake photo → Delete all</strong>.</p>
 </div>
 
 <div class="card">
-<h3>3. Microphone</h3>
+<h3>3. Microphone and camera</h3>
 <p>The App offers a control mode called "Magic blow" that lets you blow at your phone to put the
 candle out. The microphone is enabled <strong>only while you have actively selected that mode</strong>,
 and is switched off immediately when you choose another mode.</p>
@@ -178,6 +203,25 @@ in real time, in order to decide whether someone is blowing. The App
 immediately after analysis and never leave your device.</p>
 <p>You may revoke the microphone permission at any time in system settings. "Magic blow" will then
 be unavailable, but touch and volume-key control are unaffected.</p>
+<p>The <strong>camera</strong> is used for one feature only, "Keepsake photo": when the candles go out,
+the front camera takes a shot and the rear camera adds a small inset, composed into a single
+polaroid-style keepsake. This feature is <strong>off by default</strong>; the camera is used only after
+you turn it on yourself under <strong>Settings → Keepsake photo</strong>. While it is off, the App never
+opens the camera.</p>
+<p>The camera is open only for the few seconds between the flames starting to sway and going out
+(it opens early so the moment of blowing is not missed) and is closed immediately after the shot.
+The App <strong>does not record video and does not stream any preview anywhere</strong>. Photos are
+written only to the App's own private storage — <strong>the App never uploads them, never sends them
+to the developer, and never adds them to your phone's gallery</strong> — so other apps cannot see them
+and they are not backed up to the cloud. At most 30 are kept; older ones are deleted automatically,
+and you can delete any or all of them yourself at any time.</p>
+<p><strong>Sharing</strong>: there is a "Share" button below each photo. Only when you press it and
+pick a destination yourself in the system share sheet (a messaging app, your gallery, email, …) is
+that one photo handed to the app you chose. From that point on, how the photo is used and kept is
+governed by <strong>that app's own privacy policy</strong> and is no longer under this App's control.
+If you never press Share, photos never leave this App.</p>
+<p>You may revoke the camera permission at any time in system settings, or simply turn "Keepsake
+photo" off. Neither affects any of the candle features.</p>
 </div>
 
 <div class="card">
@@ -219,6 +263,8 @@ knowingly collect any data from children under 13.</p>
 <ul>
   <li><code>INTERNET</code> — required to load ads; all of the App's own features work offline.</li>
   <li><code>RECORD_AUDIO</code>, <code>MODIFY_AUDIO_SETTINGS</code> — blow detection for "Magic blow"; see section 3.</li>
+  <li><code>CAMERA</code> — taking the keepsake photo; see section 3. The App requests no permission
+      to read from or write to your gallery.</li>
 </ul>
 </div>
 
@@ -240,8 +286,9 @@ knowingly collect any data from children under 13.</p>
 
 <div class="card">
 <h3>1. 収集しない情報</h3>
-<p>本アプリが氏名、メールアドレス、電話番号、連絡先、位置情報、写真、アカウント情報を
-求めることも収集することもありません。開発者が利用者のアプリ内での操作を見ることはできません。</p>
+<p>本アプリが氏名、メールアドレス、電話番号、連絡先、位置情報、端末のアルバム内の写真、
+アカウント情報を求めることも収集することもありません。
+開発者が利用者のアプリ内での操作を見ることはできません。</p>
 </div>
 
 <div class="card">
@@ -253,12 +300,15 @@ knowingly collect any data from children under 13.</p>
   <li>BGM と効果音の音量、消灯時に音楽を止めるかどうか</li>
   <li>煙の文字の選択、および入力したお祝いメッセージ</li>
   <li>ショップの解放状況とアプリ内通貨の残高</li>
+  <li>「記念写真」で撮影したチェキ風の写真（アプリ専用の保存領域にのみ保存され、最大 30 枚。
+      端末のアルバムには追加されません）</li>
 </ul>
-<p>本アプリをアンインストールすると、これらはすべて削除されます。</p>
+<p>本アプリをアンインストールすると、これらはすべて削除されます。写真だけを消したい場合は
+<strong>設定 → 記念写真 → すべて削除</strong>からいつでも消去できます。</p>
 </div>
 
 <div class="card">
-<h3>3. マイクについて</h3>
+<h3>3. マイクとカメラについて</h3>
 <p>本アプリには、端末に息を吹きかけてろうそくを消す「魔法の息」という操作方法があります。
 マイクは<strong>この操作方法を選択している間のみ</strong>有効になり、
 他の操作方法に切り替えると直ちに停止します。</p>
@@ -268,6 +318,24 @@ knowingly collect any data from children under 13.</p>
 音声は解析後ただちに破棄され、端末の外に出ることはありません。</p>
 <p>マイクの権限は、システム設定からいつでも取り消せます。取り消すと「魔法の息」は使えなくなりますが、
 画面タッチと音量ボタンによる操作には影響しません。</p>
+<p><strong>カメラ</strong>は「記念写真」という機能でのみ使用します。ろうそくが消えるときに
+フロントカメラで1枚、続いてリアカメラで小さな1枚を撮影し、チェキ風の記念写真に合成します。
+この機能は<strong>初期状態ではオフ</strong>で、<strong>設定 → 記念写真</strong>から利用者ご自身が
+オンにしたときにのみカメラを使用します。オフのあいだ、本アプリがカメラを開くことはありません。</p>
+<p>カメラが有効になるのは、炎が揺れはじめてから消えるまでの数秒だけです
+（吹き消す瞬間を逃さないために少し早めに開きます）。撮影後は直ちに停止します。
+本アプリは<strong>録画も、映像の送信も行いません</strong>。撮影した写真はアプリ専用の保存領域に
+書き込まれるだけで、<strong>本アプリが自らアップロードすることはなく、開発者への送信も、
+端末のアルバムへの保存も行いません</strong>。そのため他のアプリから見えることはなく、
+クラウドへ自動バックアップされることもありません。保持は最大 30 枚で、超えた分は古いものから
+自動的に削除されます。1枚ずつ、またはまとめて削除することもいつでも可能です。</p>
+<p><strong>共有について</strong>：写真の下に「共有」ボタンがあります。それを押し、システムの
+共有画面で送り先（メッセージアプリ、アルバム、メールなど）をご自身で選んだときにのみ、
+その1枚が選ばれたアプリに渡されます。渡したあとの利用や保存については
+<strong>選ばれたアプリ自身のプライバシーポリシー</strong>に従い、本アプリの管理は及びません。
+共有を押さなければ、写真が本アプリの外に出ることはありません。</p>
+<p>カメラの権限はシステム設定からいつでも取り消せますし、「記念写真」をオフにするだけでも構いません。
+どちらもろうそく本体の機能には影響しません。</p>
 </div>
 
 <div class="card">
@@ -310,6 +378,8 @@ Google のユーザーメッセージングプラットフォーム（UMP）を�
 <ul>
   <li><code>INTERNET</code> — 広告の読み込みに必要です。アプリ自体の機能はすべてオフラインで動作します。</li>
   <li><code>RECORD_AUDIO</code>、<code>MODIFY_AUDIO_SETTINGS</code> — 「魔法の息」の吹きかけ検出用。第 3 節をご覧ください。</li>
+  <li><code>CAMERA</code> — 「記念写真」の撮影用。第 3 節をご覧ください。アルバムの読み書き権限は
+      一切要求しません。</li>
 </ul>
 </div>
 
